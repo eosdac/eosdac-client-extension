@@ -1,7 +1,7 @@
 <template>
   <q-item to="/example" >
     <q-item-side icon="check" color="text2"/>
-    <q-item-main label="Example Page" class="text-text1"/>
+    <q-item-main :label="$t('default.example_page')" class="text-text1"/>
   </q-item>
 </template>
 

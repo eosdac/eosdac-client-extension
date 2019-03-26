@@ -1,6 +1,7 @@
 {
   "default": {
-    "support": "custom support"
+    "support": "custom support",
+    "example_page": "Example Page"
   }
  
 }
