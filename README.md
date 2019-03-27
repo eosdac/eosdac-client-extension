@@ -12,4 +12,7 @@ Put your custom pages and components in the representative folders. Add your men
 ## routes: add custom routes
 Use the routes.js file to add your own routes pointing to your custom pages.
 
+## branding
+The logos for the memberclient will be pulled in from branding/images/logos. Be aware that the file names matter.
+
 
