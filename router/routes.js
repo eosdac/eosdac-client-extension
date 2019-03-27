@@ -1,9 +1,9 @@
 const routes_extension = [
     {
-      path: '/',
+      path: '/example',
       component: () => import('layouts/MyLayout.vue'),
       children: [
-        { path: 'example', component: () => import('../pages/example') },
+        { path: '', component: () => import('../pages/example') },
       ]
     }
   
