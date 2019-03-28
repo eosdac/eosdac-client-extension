@@ -151,7 +151,6 @@ export default {
   computed: {
     ...mapGetters({
       getAccountName: 'user/getAccountName',
-      getScatter: 'api/getScatter',
       getIsDark: 'ui/getIsDark'
     })
   },
