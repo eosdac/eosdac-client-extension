@@ -4,7 +4,7 @@
 This repo contains all files to customize and extend the memberclient. It should be pulled in to the src/extensions folder of the memberclient. The extensions folder should be added to your gitignore file (by default).
 
 ## branding
-The logos for the memberclient will be pulled in from branding/images/logos. Be aware that the file names matter.
+You can change the default colors or add more color schemes in the branding/color_schemes folder. You need to register additional schemes in the index.js file. The logos for the memberclient will be pulled in from branding/images/logos. Be aware that the file names matter.
 
 ## i18n: Add or change language strings
 In the i18n folder you could customize or add language strings. If you add strings with the same key they will overwrite the defaults that come with the memberclient.
