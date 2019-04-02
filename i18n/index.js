@@ -1,5 +1,4 @@
-
-import enUS from './en_US'
+import enUS from "./en_US";
 // import de from './de'
 // import enGB from './en_GB'
 // import es from './es'
@@ -11,7 +10,7 @@ import enUS from './en_US'
 // import vi from './vi'
 // import zhHANS from './zh_CN'
 export default {
-  'en-us': enUS
+  "en-us": enUS
   // ,'de': de,
   // 'en-gb': enGB,
   // 'es': es,
@@ -22,4 +21,4 @@ export default {
   // 'ru': ru,
   // 'vi': vi,
   // 'zh-hans': zhHANS
-}
+};

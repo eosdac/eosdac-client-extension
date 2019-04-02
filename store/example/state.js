@@ -1,4 +1,4 @@
 export default {
   //
-  example: 'hello from store'
-}
+  example: "hello from store"
+};
