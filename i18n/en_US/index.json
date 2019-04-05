@@ -1,4 +1,9 @@
 {
+  "meta": {
+    "title": "eosDAC Memberclient",
+    "description": "Come to the eosDAC Member Client to register and interact with the DAC-enabling Decentralized Autonomous Community.",
+    "keywords": "eosdac, member, eos, dac, token, custodian, blockchain, crypto, decentralized, autonomous"
+  },
   "index": {
     "description_p1": "eosDAC is a decentralized autonomous community which means it is owned and operated by the token holders who agree to the constitution and register as members of the community.",
     "description_p2": "When completed, this member client will allow you to read the constitution, register as a member, submit worker proposals, register as a custodian candidate, vote on custodians, transfer tokens, and more. If you have any questions, please reach out to us using the links below.",
