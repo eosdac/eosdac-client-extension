@@ -125,7 +125,7 @@
 import credits from "../statics/config/credits.json";
 import Partners from "../components/partners";
 
-const audio = new Audio("extensions/statics/sounds/retro.mp3");
+const audio = new Audio(require("../statics/sounds/retro.mp3"));
 audio.addEventListener(
   "ended",
   function() {
