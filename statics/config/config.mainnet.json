@@ -5,11 +5,13 @@
         "token": {
             "name": "eosdactokens",
             "symbol": "EOSDAC",
-            "totalSupply": 1000000000.0000
+            "totalSupply": 1000000000.0000,
+            "decimals": 4
         },
         "system_token": {
             "name": "eosio.token",
-            "symbol": "EOS"
+            "symbol": "EOS",
+            "decimals": 4
         },
         "custodian": {
             "name": "daccustodian",

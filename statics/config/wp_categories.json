@@ -1,12 +1,12 @@
 [
-    { "label": "cat_0", "value": "0" },
-    { "label": "cat_1", "value": "1" },
-    { "label": "cat_2", "value": "2" },
-    { "label": "cat_3", "value": "3" },
-    { "label": "cat_4", "value": "4" },
-    { "label": "cat_5", "value": "5" },
-    { "label": "cat_6", "value": "6" },
-    { "label": "cat_7", "value": "7" },
-    { "label": "cat_8", "value": "8" },
-    { "label": "cat_9", "value": "9" }
+    { "label": "cat_0", "value": "0", "desc": "cat_0_desc"},
+    { "label": "cat_1", "value": "1", "desc": "cat_1_desc"},
+    { "label": "cat_2", "value": "2", "desc": "cat_2_desc"},
+    { "label": "cat_3", "value": "3", "desc": "cat_3_desc"},
+    { "label": "cat_4", "value": "4", "desc": "cat_4_desc"},
+    { "label": "cat_5", "value": "5", "desc": "cat_5_desc"},
+    { "label": "cat_6", "value": "6", "desc": "cat_6_desc"},
+    { "label": "cat_7", "value": "7", "desc": "cat_7_desc"},
+    { "label": "cat_8", "value": "8", "desc": "cat_8_desc"},
+    { "label": "cat_9", "value": "9", "desc": "cat_9_desc"}
 ]
