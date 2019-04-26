@@ -1,4 +1,4 @@
-# eosDAC client Customization
+# DAC Factory client Customization
 (in developement)
 
 This repo contains all files to customize and extend the eosdac-client. It should be pulled in to the src/extensions folder of the eosdac-client. The extensions folder should be added to your gitignore file (by default).
