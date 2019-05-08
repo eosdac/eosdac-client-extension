@@ -58,6 +58,12 @@
                 ]
             },
             {
+                "name":"kasdactokens", 
+                "linkedAuths": [
+                    {"contract": "kasdactokens", "action": "newmemterms", "permission": "active", "label": "Update Constitution"}
+                ]
+            },
+            {
                 "name":"dacauthority", 
                 "linkedAuths":[
                     {"contract": "dacelections", "action": "firecust", "permission": "med", "label": "Fire Custodian"},

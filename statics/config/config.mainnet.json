@@ -60,6 +60,12 @@
                 ]
             },
             {
+                "name":"eosdactokens", 
+                "linkedAuths": [
+                    {"contract": "eosdactokens", "action": "newmemterms", "permission": "active", "label": "Update Constitution"}
+                ]
+            },
+            {
                 "name":"dacauthority", 
                 "linkedAuths":[
                     {"contract": "daccustodian", "action": "firecust", "permission": "med", "label": "Fire Custodian"},
