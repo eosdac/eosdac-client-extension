@@ -37,6 +37,18 @@
     },
 
 
+    "extraAccounts": [
+        {
+            "name": "eosdacserver",
+            "description":
+            "The EOS Mainnet block producer account for eosDAC which receives Block Producer rewards."
+        },
+        {
+            "name": "dacocoiogmbh",
+            "description":
+            "The current eosDAC service provider account which manages payroll, employment contracts, and real-world interactions on behalf of the DAC."
+        }
+    ],
     "bpAccount": {
         "name": "eosdacserver"
     },
