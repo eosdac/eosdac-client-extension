@@ -30,44 +30,12 @@
         "wpproposal":{
             "name": "dacproposals"
         },
-        "treasury": {
-            "name": "eosdacthedac"
-        },
         "escrow":{
             "name": "eosdacescrow"
-        },
-
-        "auth": {
-            "name": "dacauthority",
-            "controlling": [
-                {
-                    "name":"eosdacthedac",
-                    "linkedAuths": [
-                        {"contract": "eosio.token", "action": "transfer", "permission": "xfer", "label": "Transfer EOS"}
-                    ]
-                },
-                {
-                    "name":"daccustodian",
-                    "linkedAuths": [
-                        {"contract": "eosdactokens", "action": "transfer", "permission": "xfer", "label": "Transfer EOSDAC"}
-                    ]
-                },
-                {
-                    "name":"eosdactokens",
-                    "linkedAuths": [
-                        {"contract": "eosdactokens", "action": "newmemterms", "permission": "active", "label": "Update Constitution"}
-                    ]
-                },
-                {
-                    "name":"dacauthority",
-                    "linkedAuths":[
-                        {"contract": "daccustodian", "action": "firecust", "permission": "med", "label": "Fire Custodian"},
-                        {"contract": "daccustodian", "action": "firecand", "permission": "med", "label": "Fire Candidate"}
-                    ]
-                }
-            ]
         }
+
     },
+
 
     "extraAccounts": [
         {
@@ -83,6 +51,40 @@
     ],
     "bpAccount": {
         "name": "eosdacserver"
+    },
+    "treasuryAccount":{
+        "name": "eosdacthedac"
+    },
+
+    "authAccount": {
+        "name": "dacauthority",
+        "controlling": [
+            {
+                "name":"eosdacthedac", 
+                "linkedAuths": [
+                    {"contract": "eosio.token", "action": "transfer", "permission": "xfer", "label": "Transfer EOS"}
+                ]
+            },
+            {
+                "name":"daccustodian", 
+                "linkedAuths": [
+                    {"contract": "eosdactokens", "action": "transfer", "permission": "xfer", "label": "Transfer EOSDAC"}
+                ]
+            },
+            {
+                "name":"eosdactokens", 
+                "linkedAuths": [
+                    {"contract": "eosdactokens", "action": "newmemterms", "permission": "active", "label": "Update Constitution"}
+                ]
+            },
+            {
+                "name":"dacauthority", 
+                "linkedAuths":[
+                    {"contract": "daccustodian", "action": "firecust", "permission": "med", "label": "Fire Custodian"},
+                    {"contract": "daccustodian", "action": "firecand", "permission": "med", "label": "Fire Candidate"}
+                ]
+            }
+        ]
     },
 
     "api": {
