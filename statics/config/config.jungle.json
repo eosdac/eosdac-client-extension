@@ -29,8 +29,43 @@
         "wpproposal":{
             "name": "dacproposals"
         },
+        "treasury": {
+            "name": "eosdacdoshhq"
+        },
         "escrow":{
             "name": "eosdacescrow"
+        },
+
+        "auth": {
+            "name": "dacauthority",
+            "controlling": [
+                {
+                    "name":"eosdacdoshhq",
+                    "linkedAuths": [
+                        {"contract": "eosio.token", "action": "transfer", "permission": "xfer", "label": "Transfer EOS"}
+                    ]
+                },
+                {
+                    "name":"dacelections",
+                    "linkedAuths": [
+                        {"contract": "kasdactokens", "action": "transfer", "permission": "xfer", "label": "Transfer KASDAC"}
+                    ]
+                },
+                {
+                    "name":"kasdactokens",
+                    "linkedAuths": [
+                        {"contract": "kasdactokens", "action": "newmemterms", "permission": "active", "label": "Update Constitution"}
+                    ]
+                },
+                {
+                    "name":"dacauthority",
+                    "linkedAuths":[
+                        {"contract": "dacelections", "action": "firecust", "permission": "med", "label": "Fire Custodian"},
+                        {"contract": "dacelections", "action": "firecand", "permission": "med", "label": "Fire Candidate"}
+                    ]
+                }
+
+            ]
         }
           
     },
@@ -54,41 +89,6 @@
             "symbol": "KASDAC"
         }
     ],
-    "treasuryAccount":{
-        "name": "eosdacdoshhq"
-    },
-
-    "authAccount": {
-        "name": "dacauthority",
-        "controlling": [
-            {
-                "name":"eosdacdoshhq", 
-                "linkedAuths": [
-                    {"contract": "eosio.token", "action": "transfer", "permission": "xfer", "label": "Transfer EOS"}
-                ]
-            },
-            {
-                "name":"dacelections", 
-                "linkedAuths": [
-                    {"contract": "kasdactokens", "action": "transfer", "permission": "xfer", "label": "Transfer KASDAC"}
-                ]
-            },
-            {
-                "name":"kasdactokens", 
-                "linkedAuths": [
-                    {"contract": "kasdactokens", "action": "newmemterms", "permission": "active", "label": "Update Constitution"}
-                ]
-            },
-            {
-                "name":"dacauthority", 
-                "linkedAuths":[
-                    {"contract": "dacelections", "action": "firecust", "permission": "med", "label": "Fire Custodian"},
-                    {"contract": "dacelections", "action": "firecand", "permission": "med", "label": "Fire Candidate"}
-                ]
-            }
-
-        ]
-    },
 
     "api": {
         "default_eos_node": "https://jungle2.cryptolions.io:443",
