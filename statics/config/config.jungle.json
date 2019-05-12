@@ -45,6 +45,13 @@
             "name": "dacocoiogmbh",
             "description":
             "The current eosDAC service provider account which manages payroll, employment contracts, and real-world interactions on behalf of the DAC."
+        },
+        {
+            "name": "evilmikehere",
+            "description":
+            "The account of a KASDAC whale",
+            "contract": "kasdactokens",
+            "symbol": "KASDAC"
         }
     ],
     "treasuryAccount":{
