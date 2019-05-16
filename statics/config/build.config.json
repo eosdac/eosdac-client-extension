@@ -1,4 +1,4 @@
 { 
-    "host_no_backslash": "http://localhost",
-    "meta_description": "Come to the DAC Factory Member Client to register and interact with the DAC-enabling Decentralized Autonomous Community." 
+    "host_no_backslash": "http://members-dev.eosdac.io",
+    "meta_description": "Come to the eosDAC Member Client to register and interact with the DAC-enabling Decentralized Autonomous Community." 
 }
