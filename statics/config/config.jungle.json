@@ -1,5 +1,5 @@
 {
-    "dacName": "eosdac",
+    "dacName": "DAC Factory",
     "contracts": {
         "token": {
             "name": "kasdactokens",
