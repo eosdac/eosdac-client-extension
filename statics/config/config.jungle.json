@@ -1,6 +1,6 @@
 {
     "dacName": "eosDAC",
-    "dacScope": "eosdac",
+    "dacScope": "eos.dac",
     "contracts": {
         "token": {
             "name": "kasdactokens",
