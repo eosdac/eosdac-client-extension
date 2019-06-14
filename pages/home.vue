@@ -358,11 +358,9 @@ export default {
         return false;
       }
 
-      // let url =
-      //   this.$helper.noBackSlash(this.$configFile.get("memberclientapi")) +
-      //   "/subscribe";
-
-      let url = "https://toolkit-api.eosdac.io/subscribe";
+      let url =
+        this.$helper.noBackSlash(this.$configFile.get("memberclientapi")) +
+        "/subscribe";
 
       this.loading = true;
       try {

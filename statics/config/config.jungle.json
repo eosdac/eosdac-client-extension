@@ -1,10 +1,10 @@
 {
-    "dacName": "Jerry's DAC",
-    "dacScope": "jerry.dac",
+    "dacName": "eosDAC",
+    "dacScope": "eos.dac",
     "contracts": {
         "token": {
-            "name": "hosteddactok",
-            "symbol": "JERRYS",
+            "name": "kasdactokens",
+            "symbol": "KASDAC",
             "totalSupply": 1000000000.0000,
             "decimals": 4
         },
@@ -14,8 +14,8 @@
             "decimals": 4
         },
         "custodian": {
-            "name": "hosteddaccus",
-            "memo": "hosteddaccus",
+            "name": "dacelections",
+            "memo": "dacelections",
             "enable_voting" : true
         },
         "bot":{
@@ -25,10 +25,10 @@
             "name": "eosiomsigold"
         },
         "dac_msig": {
-            "name": "hosteddacsig"
+            "name": "dacmultisigs"
         },
         "wpproposal":{
-            "name": "hosteddacwps"
+            "name": "dacproposals"
         },
         "escrow":{
             "name": "eosdacescrow"
@@ -40,36 +40,35 @@
         "name": "eosdacserval"
     },
     "treasuryAccount":{
-        "name": "t.jerry.dac"
+        "name": "eosdacdoshhq"
     },
 
     "authAccount": {
-        "name": "a.jerry.dac",
+        "name": "dacauthority",
         "controlling": [
             {
-                "name":"t.jerry.dac",
+                "name":"eosdacdoshhq", 
                 "linkedAuths": [
-                    {"contract": "eosio.token", "action": "transfer", "permission": "xfer", "label": "Transfer EOS"},
-                    {"contract": "hosteddactok", "action": "transfer", "permission": "xfer", "label": "Transfer JERRYS"}
+                    {"contract": "eosio.token", "action": "transfer", "permission": "xfer", "label": "Transfer EOS"}
                 ]
             },
             {
                 "name":"dacelections", 
                 "linkedAuths": [
-                    {"contract": "hosteddactok", "action": "transfer", "permission": "xfer", "label": "Transfer JERRYS"}
+                    {"contract": "kasdactokens", "action": "transfer", "permission": "xfer", "label": "Transfer KASDAC"}
                 ]
             },
             {
                 "name":"kasdactokens", 
                 "linkedAuths": [
-                    {"contract": "hosteddactok", "action": "newmemtermse", "permission": "active", "label": "Update Constitution"}
+                    {"contract": "kasdactokens", "action": "newmemterms", "permission": "active", "label": "Update Constitution"}
                 ]
             },
             {
                 "name":"dacauthority", 
                 "linkedAuths":[
-                    {"contract": "hosteddaccus", "action": "firecust", "permission": "med", "label": "Fire Custodian"},
-                    {"contract": "hosteddaccus", "action": "firecand", "permission": "med", "label": "Fire Candidate"}
+                    {"contract": "dacelections", "action": "firecust", "permission": "med", "label": "Fire Custodian"},
+                    {"contract": "dacelections", "action": "firecand", "permission": "med", "label": "Fire Candidate"}
                 ]
             }
 
@@ -88,8 +87,6 @@
 
     "external":{
         "homepage": "https://eosdac.io",
-        "discord": "https://discord.io/eosdac",
-        "explorer": "https://bloks.io",
-        "dacexplorer": "https://explorer.eosdac.io"
+        "explorer": "https://jungle.bloks.io"
     }
 }
