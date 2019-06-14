@@ -1,12 +1,12 @@
 [
-    { "label": "cat_0", "value": "0", "desc": "cat_0_desc"},
-    { "label": "cat_1", "value": "1", "desc": "cat_1_desc"},
-    { "label": "cat_2", "value": "2", "desc": "cat_2_desc"},
-    { "label": "cat_3", "value": "3", "desc": "cat_3_desc"},
-    { "label": "cat_4", "value": "4", "desc": "cat_4_desc"},
-    { "label": "cat_5", "value": "5", "desc": "cat_5_desc"},
-    { "label": "cat_6", "value": "6", "desc": "cat_6_desc"},
-    { "label": "cat_7", "value": "7", "desc": "cat_7_desc"},
-    { "label": "cat_8", "value": "8", "desc": "cat_8_desc"},
-    { "label": "cat_9", "value": "9", "desc": "cat_9_desc"}
+    { "label": "wp_categories.cat_0", "value": "0", "desc": "wp_categories.cat_0_desc"},
+    { "label": "wp_categories.cat_1", "value": "1", "desc": "wp_categories.cat_1_desc"},
+    { "label": "wp_categories.cat_2", "value": "2", "desc": "wp_categories.cat_2_desc"},
+    { "label": "wp_categories.cat_3", "value": "3", "desc": "wp_categories.cat_3_desc"},
+    { "label": "wp_categories.cat_4", "value": "4", "desc": "wp_categories.cat_4_desc"},
+    { "label": "wp_categories.cat_5", "value": "5", "desc": "wp_categories.cat_5_desc"},
+    { "label": "wp_categories.cat_6", "value": "6", "desc": "wp_categories.cat_6_desc"},
+    { "label": "wp_categories.cat_7", "value": "7", "desc": "wp_categories.cat_7_desc"},
+    { "label": "wp_categories.cat_8", "value": "8", "desc": "wp_categories.cat_8_desc"},
+    { "label": "wp_categories.cat_9", "value": "9", "desc": "wp_categories.cat_9_desc"}
 ]
