@@ -44,35 +44,7 @@
     },
 
     "authAccount": {
-        "name": "dacauthority",
-        "controlling": [
-            {
-                "name":"eosdacdoshhq", 
-                "linkedAuths": [
-                    {"contract": "eosio.token", "action": "transfer", "permission": "xfer", "label": "Transfer EOS"}
-                ]
-            },
-            {
-                "name":"dacelections", 
-                "linkedAuths": [
-                    {"contract": "kasdactokens", "action": "transfer", "permission": "xfer", "label": "Transfer KASDAC"}
-                ]
-            },
-            {
-                "name":"kasdactokens", 
-                "linkedAuths": [
-                    {"contract": "kasdactokens", "action": "newmemterms", "permission": "active", "label": "Update Constitution"}
-                ]
-            },
-            {
-                "name":"dacauthority", 
-                "linkedAuths":[
-                    {"contract": "dacelections", "action": "firecust", "permission": "med", "label": "Fire Custodian"},
-                    {"contract": "dacelections", "action": "firecand", "permission": "med", "label": "Fire Candidate"}
-                ]
-            }
-
-        ]
+        "name": "dacauthority"
     },
 
     "api": {
@@ -88,7 +60,7 @@
     "external":{
         "homepage": "https://eosdac.io",
         "discord": "https://discord.io/eosdac",
-        "explorer": "https://bloks.io",
+        "explorer": "https://jungle.bloks.io",
         "dacexplorer": "https://explorer.eosdac.io"
     }
 }
