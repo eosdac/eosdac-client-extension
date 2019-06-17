@@ -1,0 +1,29 @@
+[
+    {
+      "account": "eosdacserval",
+      "contract": "eosio.token",
+      "symbol": "EOS",
+      "description":
+        "The EOS Mainnet block producer account for eosDAC which receives Block Producer rewards."
+    },
+    {
+      "account": "eosdacdoshhq",
+      "contract": "eosio.token",
+      "symbol": "EOS",
+      "description":
+        "The DAC owner account where DAC funds are secured and controlled by a 12-account multisig permission system of elected custodians."
+    },
+    {
+      "account": "dacocoiogmbh",
+      "contract": "eosio.token",
+      "symbol": "EOS",
+      "description":
+        "The current eosDAC service provider account which manages payroll, employment contracts, and real-world interactions on behalf of the DAC."
+    },
+    {
+      "account": "dacelections",
+      "contract": "kasdactokens",
+      "symbol": "KASDAC",
+      "description": "custodian contract description"
+    }
+  ]

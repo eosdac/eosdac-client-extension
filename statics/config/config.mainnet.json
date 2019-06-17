@@ -37,9 +37,6 @@
 
     },
 
-    "bpAccount": {
-        "name": "eosdacserver"
-    },
     "treasuryAccount":{
         "name": "eosdacthedac"
     },
