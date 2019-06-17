@@ -1,6 +1,16 @@
 {
     "dacName": "eosDAC",
     "dacScope": "eos.dac",
+
+    "accounts":{
+        "treasuryAccount":{
+            "name": "eosdacdoshhq"
+        },
+        "authAccount": {
+            "name": "dacauthority"
+        }
+    },
+    
     "contracts": {
         "token": {
             "name": "kasdactokens",
@@ -36,13 +46,7 @@
           
     },
 
-    "treasuryAccount":{
-        "name": "eosdacdoshhq"
-    },
 
-    "authAccount": {
-        "name": "dacauthority"
-    },
 
     "api": {
         "default_eos_node": "https://jungle2.cryptolions.io:443",

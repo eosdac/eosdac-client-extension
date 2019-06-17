@@ -1,6 +1,14 @@
 {
     "dacName": "eosDAC",
     "dacScope": "eosdac",
+    "accounts": {
+        "treasuryAccount":{
+            "name": "eosdacthedac"
+        },
+        "authAccount": {
+            "name": "dacauthority"
+        }
+    },
     "contracts": {
         
         "token": {
@@ -37,13 +45,6 @@
 
     },
 
-    "treasuryAccount":{
-        "name": "eosdacthedac"
-    },
-
-    "authAccount": {
-        "name": "dacauthority"
-    },
 
     "api": {
         "default_eos_node": "https://proxy.eosnode.tools:443",
