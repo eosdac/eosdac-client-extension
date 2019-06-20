@@ -61,17 +61,17 @@
               "The DAC owner account where DAC funds are secured and controlled by a 12-account multisig permission system of elected custodians."
         },
         {
+          "account": "daccustodian",
+          "contract": "eosdactokens",
+          "symbol": "EOSDAC",
+          "description": "custodian contract description"
+        },
+        {
           "account": "dacocoiogmbh",
           "contract": "eosio.token",
           "symbol": "EOS",
           "description":
             "The current eosDAC service provider account which manages payroll, employment contracts, and real-world interactions on behalf of the DAC."
-        },
-        {
-          "account": "daccustodian",
-          "contract": "eosdactokens",
-          "symbol": "EOSDAC",
-          "description": "custodian contract description"
         }
     ],
 
