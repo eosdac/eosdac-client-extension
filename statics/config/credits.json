@@ -33,8 +33,8 @@
     },
     {
       "name": "Quasar Framework",
-      "url": "https://quasar-framework.org/",
-      "logo": "https://quasar-framework.org/images/quasar-logo-big.png"
+      "url": "https://quasar.dev/",
+      "logo": "https://cdn.quasar.dev/logo/svg/quasar-logo.svg"
     }
   ]
 }
