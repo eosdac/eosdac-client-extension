@@ -1,7 +1,7 @@
 const routes_extension = [
   {
     path: "/",
-    component: () => import("layouts/MyLayout.vue"),
+    component: () => import("layouts/dacLayout.vue"),
     children: [
       {
         path: "example",
