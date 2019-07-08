@@ -24,7 +24,6 @@
         },
         "custodian": {
             "name": "daccustodian",
-            "memo": "daccustodian",
             "enable_voting" : true
         },
         "bot":{
