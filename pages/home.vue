@@ -175,7 +175,7 @@
                 class="float-right"
                 color="bg2"
                 :label="$t('index.open_discord')"
-                @click.native="openURL($configFile.get('external').discordUrl)"
+                @click.native="openURL($configFile.get('external').discord)"
               />
             </div>
           </div>

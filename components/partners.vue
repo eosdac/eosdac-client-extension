@@ -10,7 +10,7 @@
     >
       <div class="row items-center">
         <img :style="style" :src="p.logo" />
-        <span>{{ p.name }}</span>
+        <div>{{ p.name }}</div>
       </div>
     </a>
   </div>

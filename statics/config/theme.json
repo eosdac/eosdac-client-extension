@@ -1,10 +1,21 @@
 {
-    "is_dark": true,
-    "colors": {
-        "$primary" : "#4a1289",
-        "$bg1" : "#1e2128",
-        "$bg2" : "#272b35",
-        "$text1" : "hsla(0,0%,100%,0.9)",
-        "$text2" : "hsla(0,0%,100%,0.7)"
-    }
+  "is_dark": true,
+  "colors": {
+    "$primary": "#4a1289",
+    "$bg1": "#1e2128",
+    "$bg2": "#272b35",
+    "$text1": "#f5f5f5",
+    "$text2": "#c2c2c2",
+    "$info": "#31ccec",
+    "$positive": "#21ba45",
+    "$negative": "#db2828",
+    "$dark": "#272b36"
+  },
+  "images": {
+    "logo_url": "../extensions/branding/images/logo/logo-main.svg",
+    "logo_notext_url": "../extensions/branding/images/logo/logo-notext.svg",
+    "background_url": "",
+    "favicon_url": "https://members.eosdac.io/branding/images/icons/favicon-32x32.png",
+    "dac_currency_url": ""
+  }
 }
