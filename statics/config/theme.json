@@ -12,10 +12,10 @@
     "$dark": "#272b36"
   },
   "images": {
-    "logo_url": "../extensions/branding/images/logo/logo-main.svg",
-    "logo_notext_url": "../extensions/branding/images/logo/logo-notext.svg",
+    "logo_url": "./branding/images/logo/logo-main.svg",
+    "logo_notext_url": "./branding/images/logo/logo-notext.svg",
     "background_url": "",
-    "favicon_url": "https://members.eosdac.io/branding/images/icons/favicon-32x32.png",
+    "favicon_url": "https://members.eosdac.io/branding/images/icons/favicon-32x32.png?v=2",
     "dac_currency_url": ""
   }
 }
