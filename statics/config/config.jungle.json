@@ -16,7 +16,8 @@
             "name": "kasdactokens",
             "symbol": "KASDAC",
             "totalSupply": 1000000000.0000,
-            "decimals": 4
+            "decimals": 4,
+            "market_api": "https://api.coingecko.com/api/v3/coins/eosdac?localization=false"
         },
         "system_token": {
             "name": "eosio.token",
@@ -41,6 +42,9 @@
         },
         "escrow":{
             "name": "eosdacescrow"
+        },
+        "referendum": {
+            "name": "eosdacvoices"
         }
           
     },
