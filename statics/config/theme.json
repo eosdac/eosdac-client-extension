@@ -1,0 +1,21 @@
+{
+  "is_dark": true,
+  "colors": {
+    "$primary": "#4a1289",
+    "$bg1": "#1e2128",
+    "$bg2": "#272b35",
+    "$text1": "#f5f5f5",
+    "$text2": "#c2c2c2",
+    "$info": "#31ccec",
+    "$positive": "#21ba45",
+    "$negative": "#db2828",
+    "$dark": "#272b36"
+  },
+  "images": {
+    "logo_url": "./branding/images/logo/logo-main.svg",
+    "logo_notext_url": "./branding/images/logo/logo-notext.svg",
+    "background_url": "",
+    "favicon_url": "https://members.eosdac.io/branding/images/icons/favicon-32x32.png?v=2",
+    "dac_currency_url": ""
+  }
+}

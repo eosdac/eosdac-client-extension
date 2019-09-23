@@ -1,12 +1,23 @@
 {
     "dacName": "eosDAC",
     "dacScope": "eos.dac",
+
+    "accounts":{
+        "treasuryAccount":{
+            "name": "eosdacdoshhq"
+        },
+        "authAccount": {
+            "name": "dacauthority"
+        }
+    },
+
     "contracts": {
         "token": {
             "name": "kasdactokens",
             "symbol": "KASDAC",
             "totalSupply": 1000000000.0000,
-            "decimals": 4
+            "decimals": 4,
+            "market_api": "https://api.coingecko.com/api/v3/coins/eosdac?localization=false"
         },
         "system_token": {
             "name": "eosio.token",
@@ -15,7 +26,6 @@
         },
         "custodian": {
             "name": "dacelections",
-            "memo": "dacelections",
             "enable_voting" : true
         },
         "bot":{
@@ -32,48 +42,42 @@
         },
         "escrow":{
             "name": "eosdacescrow"
+        },
+        "referendum": {
+            "name": "eosdacvoices"
         }
           
     },
 
-    "bpAccount": {
-        "name": "eosdacserval"
-    },
-    "treasuryAccount":{
-        "name": "eosdacdoshhq"
-    },
-
-    "authAccount": {
-        "name": "dacauthority",
-        "controlling": [
-            {
-                "name":"eosdacdoshhq", 
-                "linkedAuths": [
-                    {"contract": "eosio.token", "action": "transfer", "permission": "xfer", "label": "Transfer EOS"}
-                ]
-            },
-            {
-                "name":"dacelections", 
-                "linkedAuths": [
-                    {"contract": "kasdactokens", "action": "transfer", "permission": "xfer", "label": "Transfer KASDAC"}
-                ]
-            },
-            {
-                "name":"kasdactokens", 
-                "linkedAuths": [
-                    {"contract": "kasdactokens", "action": "newmemterms", "permission": "active", "label": "Update Constitution"}
-                ]
-            },
-            {
-                "name":"dacauthority", 
-                "linkedAuths":[
-                    {"contract": "dacelections", "action": "firecust", "permission": "med", "label": "Fire Custodian"},
-                    {"contract": "dacelections", "action": "firecand", "permission": "med", "label": "Fire Candidate"}
-                ]
-            }
-
-        ]
-    },
+    "financial_page_graphs": [
+        {
+          "account": "eosdacserval",
+          "contract": "eosio.token",
+          "symbol": "EOS",
+          "description":
+            "The EOS Mainnet block producer account for eosDAC which receives Block Producer rewards."
+        },
+        {
+          "account": "eosdacdoshhq",
+          "contract": "eosio.token",
+          "symbol": "EOS",
+          "description":
+            "The DAC owner account where DAC funds are secured and controlled by a 12-account multisig permission system of elected custodians."
+        },
+        {
+          "account": "dacocoiogmbh",
+          "contract": "eosio.token",
+          "symbol": "EOS",
+          "description":
+            "The current eosDAC service provider account which manages payroll, employment contracts, and real-world interactions on behalf of the DAC."
+        },
+        {
+          "account": "dacelections",
+          "contract": "kasdactokens",
+          "symbol": "KASDAC",
+          "description": "custodian contract description"
+        }
+      ],
 
     "api": {
         "default_eos_node": "https://jungle2.cryptolions.io:443",
@@ -87,6 +91,8 @@
 
     "external":{
         "homepage": "https://eosdac.io",
-        "explorer": "https://jungle.bloks.io"
+        "discord": "https://discord.io/eosdac",
+        "explorer": "https://jungle.bloks.io",
+        "dacexplorer": "https://explorer.eosdac.io"
     }
 }
